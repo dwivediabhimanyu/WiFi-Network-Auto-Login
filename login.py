@@ -21,6 +21,7 @@ else:
     print("Using saved details>>> Username: {} Password: {}".format(cred[1],cred[0]))
     passwordStr = cred[0]
     usernameStr = cred[1]
+    isupper(passwordStr)
     browser = webdriver.Chrome()
     browser.get(('http://10.10.2.1/24online/webpages/client.jsp?fromlogout=true'))
     
