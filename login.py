@@ -17,6 +17,7 @@ if(line=="#"):
     f.close()
     close=input("We have update our records. Please reopen the programme for updates to apply..\n Press any key to terminate")
     exit()
+#If old user take creds from file and login
 else:
     cred=line.split("#")
     print("Using saved details>>> Username: {} Password: {}".format(cred[1],cred[0]))
