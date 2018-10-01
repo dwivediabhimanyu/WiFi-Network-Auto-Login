@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 f = open("cred.txt",'r',encoding = 'utf-8')
 line=f.read()
 f.close()
+#Check if user is new or OLD
 if(line=="#"):
     print("Hello New user! Please provide us your RPH Wifi username and password to auto login on your next start")
     print("Make sure you enter details correctly with Caps")
