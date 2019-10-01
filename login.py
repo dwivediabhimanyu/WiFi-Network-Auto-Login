@@ -28,7 +28,8 @@ else:
     # fill in username and hit the next button
     
     username = browser.find_element_by_name('username')
-    username.send_keys(usernameStr)
+    username.send_keys(usernameStr)  
+    #Enter your username,it will send your key
     
     password = browser.find_element_by_name('password')
     
