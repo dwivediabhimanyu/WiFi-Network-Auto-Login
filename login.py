@@ -1,9 +1,11 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-f = open("cred.txt",'r',encoding = 'utf-8')
-line=f.read()
+app_name = "erpnext"
+app_title = "erpnext"
+app_publisher = "Frappe Technologies"
+app_description = "Open Source ERP"
+app_icon = "octicon octicon-file-directory"
+app_color = "grey"
+app_email = "info@erpnext.com"
+app_license = "MIT"
 f.close()
 #Check if user is new or OLD
 if(line=="#"):
